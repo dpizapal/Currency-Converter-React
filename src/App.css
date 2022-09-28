@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.input{
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 7em;
+}
+
+select{
+  margin-left: .5rem;
+}
+
+.fa{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+footer {
+  color: #fff;
+  background: #111;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .link:hover,
+footer .icon .fa:hover {
+  color: #fff;
+}
+
+footer .link {
+  color: #489fb5;
+  transition: 0.3s all linear;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 3px solid #fff;
+  padding-right: 0.5rem;
+  margin-right: 1rem;
+}
+footer .icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  transition: 0.3s all linear;
+  line-height: 1;
+}
+
+#twitter {
+  color: #00a7e7;
+}
+#instagram {
+  color: #ea6960;
+}
+#linkedin {
+  color: #0073b1;
+}
