@@ -2,6 +2,20 @@
 
 A currency converter app to converter one currency type to another. An external API is used to fetch latest currency rates and the rates are updated based on the user input.
 
+## Author ✒️
+
+DAVID PIZARRO PALANCAR  
+
+## LinkedIn
+www.linkedin.com/in/david-pizarro-developer
+
+## live
+
+https://pizarro-currency-converter.netlify.app/
+
+## Contact
+
+If you wanna contact me you can email to  pizarro.developer@gmail.com
 
 
 ## Tools
@@ -11,6 +25,7 @@ A currency converter app to converter one currency type to another. An external 
 - Form Handling in React
 - Data Fetching in React
 - Environment Variables
+
 
 ## Resources & References
 
