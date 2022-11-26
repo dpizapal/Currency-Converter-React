@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import InputField from "./InputField";
-import Footer from "./Footer";
+
 import { FaExchangeAlt } from 'react-icons/fa';
 
-const url= 'https://v6.exchangerate-api.com/v6/ad9f9e2a1805f6e2aa09e8f0/latest/USD'
+const url= 'https://v6.exchangerate-api.com/v6/ad9f9e2a1805f6e2aa09e8f0/latest/EUR'
 
 
 function App() {
   //# states
-  const [options, setOptions] = useState(['USD', 'INR']);
-  const [firstCurrency, setFirstCurrency] = useState('USD');
-  const [secondCurrency, setSecondCurrency] = useState('INR');
+  const [options, setOptions] = useState(['EUR', 'USD']);
+  const [firstCurrency, setFirstCurrency] = useState('EUR');
+  const [secondCurrency, setSecondCurrency] = useState('USD');
   const [firstValue, setFirstValue] = useState('1');
   const [secondValue, setSecondValue] = useState('');
   const [frontConversion, setFrontConversion] = useState(true);
@@ -43,7 +43,9 @@ function App() {
 
   // jsx
   return (
+    <>
     <main>
+      <form>
       <h2 className="title">Converter</h2>
       <header>
         <div className="container">
@@ -71,8 +73,12 @@ function App() {
         </div>
       </header>
 
-      <Footer />
+      
+      </form>
+      
     </main>
+    
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -7,34 +7,34 @@ const Footer = () => {
     <footer>
       Created by
       <a
-        href="http://yodkwtf.netlify.app"
+        href="/"
         target="_blank"
         rel="noreferrer"
         className="link"
       >
         {' '}
-        Deekayy
+        David Pizarro
       </a>
       <a
-        href="https://twitter.com/yodkwtf"
+        href="https://github.com/dpizapal"
         target="_blank"
         rel="noreferrer"
         className="icon"
-        id="twitter"
+        id="gitHub"
       >
-        <FaTwitter className="fa" />
+        <FaGithub className="fa" />
       </a>{' '}
       <a
-        href="https://www.instagram.com/yodkwtf"
+        href="mailto:pizarro.developer@gmail.com"
         target="_blank"
         rel="noreferrer"
         className="icon"
-        id="instagram"
+        id="mail"
       >
-        <FaInstagram className="fa" />
+        <FaEnvelope className="fa" />
       </a>{' '}
       <a
-        href="https://www.linkedin.com/in/durgesh-chaudhary/"
+        href="https://www.linkedin.com/in/david-pizarro-developer"
         target="_blank"
         rel="noreferrer"
         className="icon"
