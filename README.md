@@ -11,7 +11,7 @@ www.linkedin.com/in/david-pizarro-developer
 
 ## live
 
-https://dpizapal.github.io/Currency-Converter-React-API/
+https://pizarro-currency-converter.netlify.app/
 
 ## Contact
 
